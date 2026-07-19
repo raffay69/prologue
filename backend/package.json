@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@langchain/openrouter": "^0.4.5",
+    "@remotion/bundler": "^4.0.491",
+    "@remotion/cli": "4.0.491",
+    "@remotion/renderer": "^4.0.491",
+    "@types/axios": "^0.14.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "axios": "^1.18.1",
+    "bullmq": "^5.80.8",
+    "cors": "^2.8.6",
+    "edge-tts-universal": "^1.4.0",
+    "express": "^5.2.1",
+    "get-audio-duration": "^4.0.1",
+    "ioredis": "^5.11.1",
+    "langchain": "^1.5.3",
+    "remotion": "4.0.491",
+    "zod": "^4.4.3"
+  }
+}
